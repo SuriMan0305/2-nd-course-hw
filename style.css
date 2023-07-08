@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
-
 * {
   border: none;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: 'montserrat';
   font-size: 16px;
@@ -15,38 +13,32 @@ body {
   font-style: normal;
   color: #fff;
 }
-
 .center {
   padding-left: calc(50vw - 600px);
   padding-right: calc(50vw - 600px);
 }
-
 .background {
   height: 1024px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000915 100%), url(/img/header_bg.jpg), lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .header {
   height: 1024px;
   padding-top: 200px;
 }
-
 .header__title {
   width: 660px;
   font-size: 64px;
   font-weight: 700;
   padding-bottom: 19px;
 }
-
 .header__text {
   width: 456px;
   font-size: 18px;
   font-weight: 300;
   line-height: 32px;
 }
-
 .header__button {
   margin-top: 44px;
   color: #FFF;
@@ -57,11 +49,9 @@ body {
   background: #9C0332;
   transition: 0.3s;
 }
-
 .header__button:hover {
   background: #EB443F;
 }
-
 .menu {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -71,8 +61,6 @@ body {
   height: 556px;
   background-color: #000915;
 }
-
-
 .card {
   position: relative;
   width: 379px;
@@ -80,12 +68,9 @@ body {
   border-radius: 17px;
   transition: 0.07s;
 }
-
 .card:hover {
   outline: 3px solid #44D2FF;
 }
-
-
 .card-1 {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(./img/card_1.jpg), lightgray 50% / cover no-repeat;
   background-position: center;
@@ -104,7 +89,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .card__text {
   position: absolute;
   top: 236px;
@@ -112,4 +96,47 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+}
+@media (max-width: 375px) {
+  .center {
+    padding-left: calc(50vw - 171px);
+    padding-right: calc(50vw - 171px);
+    }
+  .background {
+    height: 735px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000915 100%), url(/img/header_bg__mobile.jpg), lightgray 50%;
+  }
+  .header {
+    height: 735px;
+    padding-top: 238px;
+  }
+  .header__title {
+    width: 343px;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .header__text {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .header__button {
+    margin-top: 34px;
+    margin-left: calc(50vw - 117px - 16px);
+    margin-right: calc(50vw - 117px - 16px);
+  }
+  .menu {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 32px;
+    height: 1221px;
+  }
+  .card {
+    width: 342px;
+  }
+  .card__text {
+    left: 16px;
+  }
 }
