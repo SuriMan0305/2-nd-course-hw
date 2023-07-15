@@ -22,6 +22,7 @@ body {
   height: 1024px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000915 100%), url(/img/header_bg.jpg), lightgray 50%;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .header {
@@ -75,19 +76,19 @@ body {
 .card:hover {
   outline: 3px solid #44D2FF;
 }
-.card-1 {
+.card:first-child {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(./img/card_1.jpg), lightgray 50% / cover no-repeat;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.card-2 {
+.card:nth-child(2) {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(./img/card_2.jpg), lightgray 50% / cover no-repeat;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.card-3 {
+.card:last-child {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(./img/card_3.jpg), lightgray 50% / cover no-repeat;
   background-position: center;
   background-size: cover;
@@ -111,8 +112,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 135px;
-  width: 100vw;
+  justify-content: space-between;
 }
 .desc {
   width: 584px;
@@ -141,12 +141,11 @@ body {
 .desc__button:hover {
   background: #EB443F;
 }
-
 @media (max-width: 375px) {
   .center {
     padding-left: calc(50vw - 171px);
     padding-right: calc(50vw - 171px);
-    }
+  }
   .background {
     height: 735px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000915 100%), url(/img/header_bg__mobile.jpg), lightgray 50%;
@@ -190,33 +189,27 @@ body {
     padding-top: 51px;
     padding-bottom: 85px;
   }
-
   .months {
     display: flex;
     flex-direction: column;
     align-items: baseline;
     gap: 64px;
-    width: 100vw;
   }
-
   .desc {
     width: 343px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
   .desc__title {
     text-align: center;
     font-size: 32px;
   }
-
   .desc__text {
     text-align: center;
     font-size: 14px;
     line-height: 22px;
   }
-
   .desc__button {
     font-family: Montserrat;
     font-size: 18px;
@@ -227,7 +220,6 @@ body {
     background-color: #9C0332;
     transition: 0.3s;
   }
-
   .desc__button:hover {
     background: #EB443F;
   }
