@@ -12,6 +12,7 @@ body {
   line-height: normal;
   font-style: normal;
   color: #fff;
+  background-color: #000915;
 }
 .center {
   padding-left: calc(50vw - 600px);
@@ -39,31 +40,34 @@ body {
   font-weight: 300;
   line-height: 32px;
 }
-.header__button {
-  margin-top: 44px;
+.header__link {
+  margin-top: 54px;
+}
+.header__lets {
   color: #FFF;
   font-size: 18px;
   letter-spacing: 1px;
+  text-decoration: none;
   padding: 13px 74px;
   border-radius: 30px;
   background: #9C0332;
   transition: 0.3s;
 }
-.header__button:hover {
+.header__lets:hover {
   background: #EB443F;
 }
 .menu {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(1, 4fr);
+  grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: repeat(1, 1fr);
   grid-column-gap: 32px;
   padding-top: 128px;
+  padding-bottom: 128px;
   height: 556px;
-  background-color: #000915;
 }
 .card {
   position: relative;
-  width: 379px;
+  width: 378px;
   height: 300px;
   border-radius: 17px;
   transition: 0.07s;
@@ -93,10 +97,51 @@ body {
   position: absolute;
   top: 236px;
   left: 32px;
+  font-family: 'Montserrat';
+  color: #fff;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
 }
+.games {
+  padding-top: 234px;
+  padding-bottom: 234px;
+}
+.months {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 135px;
+  width: 100vw;
+}
+.desc {
+  width: 584px;
+  display: flex; 
+  flex-direction: column;
+  gap: 32px;
+}
+.desc__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.desc__text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.desc__button {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #fff;
+  padding: 13px 82px;
+  border-radius: 30px;
+  background-color: #9C0332;
+  transition: 0.3s;
+}
+.desc__button:hover {
+  background: #EB443F;
+}
+
 @media (max-width: 375px) {
   .center {
     padding-left: calc(50vw - 171px);
@@ -122,14 +167,16 @@ body {
     line-height: 22px;
     text-align: center;
   }
-  .header__button {
-    margin-top: 34px;
+  .header__link {
+    margin-top: 44px;
+  }
+  .header__lets {
     margin-left: calc(50vw - 117px - 16px);
     margin-right: calc(50vw - 117px - 16px);
   }
   .menu {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 32px;
     height: 1221px;
   }
@@ -138,5 +185,54 @@ body {
   }
   .card__text {
     left: 16px;
+  }
+  .games {
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+
+  .months {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 64px;
+    width: 100vw;
+  }
+
+  .desc {
+    width: 343px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desc__title {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .desc__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .desc__button {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 13px 82px;
+    border-radius: 30px;
+    background-color: #9C0332;
+    transition: 0.3s;
+  }
+
+  .desc__button:hover {
+    background: #EB443F;
+  }
+  .paint__svg {
+    width: 343px;
+    height: 236px;
   }
 }
