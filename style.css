@@ -13,10 +13,6 @@ body {
   font-style: normal;
   color: #fff;
   background-color: #000915;
-  background-image: url(./img/riddles_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100vw 800px;
-  background-position: 0px 3180px;
 }
 .center {
   padding-left: calc(50vw - 600px);
@@ -155,7 +151,12 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
+.mouse {
+  background-image: url(./img/riddles_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .riddles {
   margin-top: 234px;
   padding-top: 276px;
@@ -181,14 +182,9 @@ body {
   font-weight: 400;
 }
 @media (max-width: 375px) {
-  body {
-    background-image: url(./img/riddles_bg_mobile.jpg);
-    background-size: 100vw 800px;
-    background-position: 0px 3255px;
-  }
   .center {
-    padding-left: calc(50vw - 171px);
-    padding-right: calc(50vw - 171px);
+    padding-left: calc(50% - 171px);
+    padding-right: calc(50% - 171px);
   }
   .background {
     height: 735px;
@@ -231,7 +227,6 @@ body {
   }
   .games {
     padding-top: 51px;
-    padding-bottom: 478px;
   }
   .months {
     display: flex;
@@ -279,10 +274,18 @@ body {
     align-items: center;
     gap: 64px;
   }
-  
+  .mouse {
+    margin-top: 80px;
+    padding-bottom: 486px;
+    background-image: url(./img/riddles_bg_mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -158px 0;
+  }
   .riddles {
-    margin-top: 130px;
+    margin-top: 0px;
     padding: 0;
+    padding-top: 50px;
   }
   
   .riddles .desc .flex {
