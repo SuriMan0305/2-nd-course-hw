@@ -105,19 +105,20 @@ body {
   line-height: 32px;
 }
 .games {
-  padding-top: 234px;
-  padding-bottom: 234px;
+  padding-top: 227px;
 }
 .months {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 478px;
 }
 .desc {
   width: 584px;
   display: flex; 
   flex-direction: column;
+  align-items: flex-start;
   gap: 32px;
 }
 .desc__title {
@@ -133,18 +134,57 @@ body {
   font-family: Montserrat;
   font-size: 18px;
   color: #fff;
-  padding: 13px 82px;
+  padding: 13px 88px;
   border-radius: 30px;
   background-color: #9C0332;
   transition: 0.3s;
 }
+.desc__button_lets {
+  padding: 13px 76px;
+}
 .desc__button:hover {
   background: #EB443F;
 }
+.remember {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.mouse {
+  background-image: url(./img/riddles_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.riddles {
+  margin-top: 234px;
+  padding-top: 276px;
+  padding-bottom: 288px;
+}
+
+.riddles .desc .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 33px 0px;
+  border-top: 1px solid #b8d4ff;
+}
+.footer__title {
+  font-size: 12px;
+  font-weight: 400;
+}
 @media (max-width: 375px) {
   .center {
-    padding-left: calc(50vw - 171px);
-    padding-right: calc(50vw - 171px);
+    padding-left: calc(50% - 171px);
+    padding-right: calc(50% - 171px);
   }
   .background {
     height: 735px;
@@ -187,13 +227,13 @@ body {
   }
   .games {
     padding-top: 51px;
-    padding-bottom: 85px;
   }
   .months {
     display: flex;
     flex-direction: column;
     align-items: baseline;
     gap: 64px;
+    margin-bottom: 136px;
   }
   .desc {
     width: 343px;
@@ -226,5 +266,44 @@ body {
   .paint__svg {
     width: 343px;
     height: 236px;
+  }
+
+  .remember {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  }
+  .mouse {
+    margin-top: 80px;
+    padding-bottom: 486px;
+    background-image: url(./img/riddles_bg_mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -158px 0;
+  }
+  .riddles {
+    margin-top: 0px;
+    padding: 0;
+    padding-top: 50px;
+  }
+  
+  .riddles .desc .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 325px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 33px 0px;
+    border-top: 1px solid #b8d4ff;
+  }
+  .footer__title {
+    font-size: 12px;
+    font-weight: 400;
   }
 }
