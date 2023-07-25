@@ -1,0 +1,239 @@
+[33mcommit 9afe02a5dd208cef0f8ab185db5d805a978e8967[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 8f6a70e 5ca9295
+Author: SuriMan0305 <133963663+SuriMan0305@users.noreply.github.com>
+Date:   Thu Jul 20 17:17:54 2023 +0300
+
+    Merge pull request #6 from SuriMan0305/hw-5
+    
+    Hw 5
+
+[33mcommit 5ca9295ec3522a30b0479b0e8c8e8a578f74abac[m[33m ([m[1;31morigin/hw-5[m[33m, [m[1;32mhw-5[m[33m)[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Thu Jul 20 01:42:00 2023 +0300
+
+    Поправил картинку компьютерной мыши, вместе с картинкой в адаптивной версии добавил новый блок mouse
+
+[33mcommit 3c8fcba2cdbfdd599ad504a82549f35f22419066[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Wed Jul 19 23:07:36 2023 +0300
+
+    Подключил функцию с игрой к html и создал саму функцию
+
+[33mcommit ae6da61fa13b3f2147edd73e9ec0c234710b2c91[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 18 23:01:23 2023 +0300
+
+    Доделал макет и адаптивную версию
+
+[33mcommit 54499dbf8766a99e608e5ff445ad2d898227dd6c[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 18 20:51:00 2023 +0300
+
+    Выполнил дз по JS №5 подключил к html закоммитил предыдущие скрипты
+
+[33mcommit 0c9b8f3c32cd0d25724a9f8ee2d538b0ac10d619[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 18 19:02:03 2023 +0300
+
+    New workspase added
+
+[33mcommit 8f6a70e557f4b05e9076b19b7820bdd24c21575f[m
+Merge: fe7b9a6 17b7609
+Author: SuriMan0305 <133963663+SuriMan0305@users.noreply.github.com>
+Date:   Sun Jul 16 15:45:20 2023 +0300
+
+    Merge pull request #5 from SuriMan0305/hw-4
+    
+    Hw 4
+
+[33mcommit 17b76094e36c360cdcf429e0d3f52f1d9063a00c[m[33m ([m[1;31morigin/hw-4[m[33m)[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 15 17:11:50 2023 +0300
+
+    Добавил стили убранных классов через псевдоклассы и исправил баг с горизонтальной прокруткой на всех разрешениях из задания, было задано значение ширины блока months: 100vw
+
+[33mcommit 8f72ab5cdd98b4c7054b2b92bc05b0ebf995821b[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 15 17:09:49 2023 +0300
+
+    Убрал svg код и лишние классы с цифрами, подключил иконку svg через тег img
+
+[33mcommit a7d2ea12dfe94bb4fc008aac4765a0020fcc2880[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 15 17:07:17 2023 +0300
+
+    Добавил svg иконку в отдельный файл
+
+[33mcommit 93bd1613708635d768aec9590e1bf6598714c0fe[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 15 16:33:11 2023 +0300
+
+    Выполнил дз по JavaScript в файле hw-4.js
+
+[33mcommit 0c07f57b6986a89262ff9b08c2594c1941cd98f3[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 15 15:36:55 2023 +0300
+
+    Создал новый файл для выполнения дз, кроме того закоммитил подключения старых скриптов и подключил новый файл
+
+[33mcommit fe7b9a6e34de05d34e1aa849012b801a8175c3a8[m
+Merge: 93880ee 49cdb3a
+Author: SuriMan0305 <133963663+SuriMan0305@users.noreply.github.com>
+Date:   Sat Jul 15 15:29:06 2023 +0300
+
+    Merge pull request #4 from SuriMan0305/hw-2
+    
+    Hw 2
+
+[33mcommit 49cdb3a8272113908f4e89b645dc670d6e857466[m[33m ([m[1;31morigin/hw-2[m[33m)[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 22:23:00 2023 +0300
+
+    Выполнил 3 дз по JS подключил к файлу index.html для проверки забыл создать новую ветку в следующий раз отчё пойдет с hw-4
+
+[33mcommit 964bcdcb694a9726fa8fa78a0e317029c8904384[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 19:15:06 2023 +0300
+
+    Добавил стили для мобильной версии и изменил некоторые старые стили в связи с тем что менял кнопки на ссылки и наоборот в html файле
+
+[33mcommit 002f3d9c73fb0b9a49228d25e09cd7c44f09ebcf[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 19:13:44 2023 +0300
+
+    Добавил блок с первой игрой про месяцы, изменил первую кнопку на ссылку а кнопки в секции меню на кнопки
+
+[33mcommit 8ff1732bc648b9debf29c311e17b2b0b3c217883[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 16:20:24 2023 +0300
+
+    Создал файл для записи замечаний и ошибок
+
+[33mcommit a87d1a5a71678ab4dd7e8e6863904bc2d1dcfc38[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 16:18:15 2023 +0300
+
+    создал файл для записи ошибок в отдельное место, сам этот файл позволяет игнорировать созданные файлы, где не надо следить за версиями проекта
+
+[33mcommit bfddd82452faf7f5cb8421b7233d3f49be57915e[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 16:15:20 2023 +0300
+
+    Создал html файл для проверки заданий по JS
+
+[33mcommit 2bc176d238889369ae83e36086de63e4fd857304[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 16:12:14 2023 +0300
+
+    Перенес файл со 2м дз в папку для заданий по JS
+
+[33mcommit 9b1bec84775f96c832d1b708a753b4c17f68e9e3[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 16:11:05 2023 +0300
+
+    Создал папку для дз по JavaScript заданий
+
+[33mcommit e478183dac85dfa3fd94b3a3ce8c899f8291e2e2[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Mon Jul 10 16:07:46 2023 +0300
+
+    Убрал скрипт из документа по предыдущему дз
+
+[33mcommit 93880eec47e0822ec7d4d60b24d63405b4c13229[m
+Merge: d8fde0d ed6a5b6
+Author: SuriMan0305 <133963663+SuriMan0305@users.noreply.github.com>
+Date:   Sat Jul 8 19:46:40 2023 +0300
+
+    Merge pull request #3 from SuriMan0305/hw-2
+    
+    Hw 2
+
+[33mcommit ed6a5b64fc7eaea8919bac16bba9311b12284ef2[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 8 05:52:40 2023 +0300
+
+    Выполнил 10 заданий по javaScript и добавил их на свой сайт, потом уберу обещаю)
+
+[33mcommit b65eed1738493661c640b91d899f0ebdb5923a15[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 8 04:12:31 2023 +0300
+
+    добавил скрипт с hw-2.js
+
+[33mcommit ad386b81cdf08f41ff487d8bc40f140adba3c358[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 8 04:10:21 2023 +0300
+
+    Создал файл js для выполнения дз
+
+[33mcommit d067698375a18e7091cb4450a1e6486c5fa84fbc[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 8 04:05:24 2023 +0300
+
+    Добавил медиазапрос на мобильную версию, хочется потом промежуточные добавить если будет время
+
+[33mcommit f19b5382927ba239b6a41d07285812f69f5382ae[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 8 04:03:36 2023 +0300
+
+    Добавил тэг <br> в 12 строку кода для корректного отображения мобильной версии
+
+[33mcommit 5255b94ee02af088ccb6e219dcc89453dda9cfae[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Sat Jul 8 02:15:58 2023 +0300
+
+    Добавил картинку для мобильной версии хэдера
+
+[33mcommit d8fde0d188d5ef1bc8f82a4459697186dceafa23[m
+Merge: 711f5ad 48ca064
+Author: SuriMan0305 <133963663+SuriMan0305@users.noreply.github.com>
+Date:   Sat Jul 8 01:38:04 2023 +0300
+
+    Merge pull request #2 from SuriMan0305/hw-1
+    
+    Hw 1:  Создана структура декстопной версии сайта и добавлены стили (+эффекты наведения не затрагивая курсор).
+
+[33mcommit 48ca064155de0e8cf0bdb4d9ff3664bcbb380719[m[33m ([m[1;31morigin/hw-1[m[33m)[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 4 18:28:42 2023 +0300
+
+    Создана структура сайта и добавлены все нужные стили и эффекты наведения, кроме курсора мыши.
+
+[33mcommit 9665941cb7fdd893a96d9cf69ba3d95e64f37fc9[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 4 18:24:03 2023 +0300
+
+    Удаление Фотографий
+
+[33mcommit c7c49d714c45225c8c2ed22df53f7fca77b5d826[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 4 18:23:33 2023 +0300
+
+    Удаление стилей
+
+[33mcommit 0ac9f29cdcb371cd96fe316401cdeb3ccda5513f[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 4 18:22:14 2023 +0300
+
+    Удаление структуры
+
+[33mcommit 711f5ad7614ac834d5b4cb7b5e327378565b5eb8[m
+Merge: 53ee489 4649578
+Author: SuriMan0305 <133963663+SuriMan0305@users.noreply.github.com>
+Date:   Tue Jul 4 18:02:48 2023 +0300
+
+    Merge pull request #1 from SuriMan0305/hw-1
+    
+    HW-1: Создана структура сайта по макету из hw-1 и добавлены необходимые стили и эффекты наведения на элементы (кроме курсора)
+
+[33mcommit 464957874a29be3900d30433df41cb3cd67211d0[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 4 17:59:50 2023 +0300
+
+    HW-1: Создана структура сайта по макету из hw-1 и добавлены необходимые стили и эффекты наведения на элементы (кроме курсора)
+
+[33mcommit 53ee489ba353f5914505414fedf241653684e2a5[m
+Author: SuriMan0305 <mihail.levchenko.0305@mail.ru>
+Date:   Tue Jul 4 14:27:28 2023 +0300
+
+    Begining project 2-nd course
