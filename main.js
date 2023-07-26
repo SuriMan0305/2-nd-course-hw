@@ -19,3 +19,11 @@ const timeYear = (num = prompt('Введите номер месяца в год
   }
   return result;
 };
+
+const rememberWords = (words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин']) => {
+  alert(`Запомните порядок слов, будьте внимательны: ${words.join(', ')}`);
+  for (word of words) {
+    console.log(word.toUpperCase());
+  }
+  console.log(words);
+};

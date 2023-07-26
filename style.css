@@ -181,7 +181,7 @@ body {
   font-size: 12px;
   font-weight: 400;
 }
-@media (max-width: 375px) {
+@media (max-width: 767px) and (min-width: 375px) {
   .center {
     padding-left: calc(50% - 171px);
     padding-right: calc(50% - 171px);
